@@ -1,16 +1,15 @@
-## Hi there 👋
-
-<!--
-**FarcikPortfolio/farcikportfolio** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje Video Portfolio</title>
+</head>
+<body>
+    <h1>Moje Video Portfolio</h1>
+    <video width="640" height="360" controls>
+        <source src="video1.mp4" type="video/mp4">
+        Váš prohlížeč nepodporuje video tag.
+    </video>
+</body>
+</html>
