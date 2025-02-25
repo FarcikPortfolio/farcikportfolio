@@ -1,69 +1,121 @@
-/* Celá stránka - tmavé téma */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #121212;
-    color: white;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  font-family: 'Minecraftory', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #000000 0%, #808080 100%);
+  color: white;
 }
 
-/* Hlavička */
 header {
-    background: #1f1f1f;
-    padding: 15px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 50px;
 }
 
-h1 {
-    margin: 0;
+header h1 {
+  font-size: 50px;
+  margin: 0;
 }
 
-/* Navigace */
-nav ul {
-    list-style: none;
-    padding: 0;
+header p {
+  font-size: 20px;
+  max-width: 800px;
+  margin: 20px auto;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+.portfolio {
+  text-align: center;
+  padding: 50px;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+.portfolio h2 {
+  font-size: 40px;
 }
 
-nav ul li a:hover {
-    color: #00aaff;
+.wave {
+  background: url('wave.png') no-repeat center center;
+  height: 50px;
+  margin-bottom: 30px;
 }
 
-/* Sekce */
-section {
-    padding: 40px;
-    margin-top: 20px;
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
-.project {
-    background: #1f1f1f;
-    padding: 20px;
-    border-radius: 10px;
-    display: inline-block;
-    width: 50%;
+.channel-box {
+  background: #000;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
 }
 
-button {
-    background: #00aaff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 10px;
+.channel-box:hover {
+  transform: scale(1.1);
 }
 
-button:hover {
-    background: #0088cc;
+.channel-box p {
+  margin: 0;
+}
+
+.subscriber-count {
+  font-size: 20px;
+}
+
+.programy {
+  background: #000;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.program-box {
+  display: inline-block;
+  background: #444;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.program-box:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background: #000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.instagram-link img {
+  width: 30px;
+  transition: all 0.3s ease;
+}
+
+.instagram-link:hover img {
+  filter: hue-rotate(60deg);
+}
+
+.footer-text {
+  margin-top: 20px;
+  font-size: 20px;
 }
