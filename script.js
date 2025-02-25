@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Volání funkce pro live odběratele každých 5 sekund
   setInterval(updateSubscriberCount, 5000);
 
-  // Zvětšení a změna barvy při najetí myší
+  // Zvětšení a změna barvy při najetí myší na Instagram logo
   const instagramLogo = document.querySelector('.instagram-link img');
   instagramLogo.addEventListener('mouseenter', () => {
     instagramLogo.style.transform = 'scale(1.2)';
