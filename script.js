@@ -10,11 +10,13 @@ document.addEventListener("DOMContentLoaded", () => {
   setInterval(updateSubscriberCount, 5000);
 
   // Zvětšení a změna barvy při najetí myší
-  const channelBox = document.querySelector('.channel-box');
-  channelBox.addEventListener('mouseenter', () => {
-    channelBox.style.transform = 'scale(1.1)';
+  const instagramLogo = document.querySelector('.instagram-link img');
+  instagramLogo.addEventListener('mouseenter', () => {
+    instagramLogo.style.transform = 'scale(1.2)';
+    instagramLogo.style.filter = 'hue-rotate(60deg)';
   });
-  channelBox.addEventListener('mouseleave', () => {
-    channelBox.style.transform = 'scale(1)';
+  instagramLogo.addEventListener('mouseleave', () => {
+    instagramLogo.style.transform = 'scale(1)';
+    instagramLogo.style.filter = 'none';
   });
 });
