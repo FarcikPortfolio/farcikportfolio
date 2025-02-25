@@ -1,3 +1,4 @@
+/* Styly pro tělo stránky */
 body {
   font-family: 'Minecraftory', sans-serif;
   margin: 0;
@@ -6,6 +7,7 @@ body {
   color: white;
 }
 
+/* Styl pro záhlaví */
 header {
   text-align: center;
   padding: 50px;
@@ -22,6 +24,7 @@ header p {
   margin: 20px auto;
 }
 
+/* Sekce portfolio */
 .portfolio {
   text-align: center;
   padding: 50px;
@@ -31,18 +34,21 @@ header p {
   font-size: 40px;
 }
 
+/* Vlnka mezi sekcemi */
 .wave {
-  background: url('wave.png') no-repeat center center;
+  background: url('images/wave.png') no-repeat center center;
   height: 50px;
   margin-bottom: 30px;
 }
 
+/* Styl pro obsah portfolia */
 .portfolio-container {
   display: flex;
   justify-content: center;
   gap: 20px;
 }
 
+/* Styl pro jednotlivé kanály */
 .channel-box {
   background: #000;
   color: white;
@@ -69,6 +75,7 @@ header p {
   font-size: 20px;
 }
 
+/* Sekce programy */
 .programy {
   background: #000;
   color: white;
@@ -101,6 +108,7 @@ header p {
   margin-bottom: 10px;
 }
 
+/* Patička */
 footer {
   background: #000;
   color: white;
