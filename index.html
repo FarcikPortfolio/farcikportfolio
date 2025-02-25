@@ -1,43 +1,57 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farcik Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farcik Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <div class="header-content">
+      <h1>FARCİK</h1>
+      <p>Ahoj, já jsem Farcik, editu se věnují nějaké 2 roky a edituji v Adobe Premiere pro 2023. Grafice se věnuji také nějaké 2 roky a dělám ji v Adobe Photoshop 2023. Také se učím programovat, zatím nějaké ty základy s Pythonem, JavaScriptem a TypeScriptem.</p>
+    </div>
+  </header>
 
-    <header>
-        <h1>Farcik Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">O mně</a></li>
-                <li><a href="#projects">Projekty</a></li>
-                <li><a href="#contact">Kontakt</a></li>
-            </ul>
-        </nav>
-    </header>
+  <section class="portfolio">
+    <div class="wave"></div>
+    <h2>PORTFOLIO</h2>
+    <div class="portfolio-container">
+      <div class="channel">
+        <a href="https://www.youtube.com/@NotFarc1k" target="_blank" class="channel-box">
+          <img src="your-logo.png" alt="YT Logo" class="yt-logo">
+          <p>Farcik</p>
+        </a>
+      </div>
+      <div class="subscriber-count" id="subscriberCount">Live odběratelé: 0</div>
+    </div>
+  </section>
 
-    <section id="about">
-        <h2>O mně</h2>
-        <p>Jsem video editor a programátor. Věnuji se tvorbě pluginů, webových aplikací a editaci videí.</p>
-    </section>
+  <section class="programy">
+    <h2>PROGRAMY</h2>
+    <div class="program-box">
+      <p>Premiere Pro 2023</p>
+    </div>
+    <div class="program-box">
+      <p>After Effects 2023</p>
+    </div>
+    <div class="program-box">
+      <p>Adobe Photoshop 2023</p>
+    </div>
+  </section>
 
-    <section id="projects">
-        <h2>Moje projekty</h2>
-        <div class="project">
-            <h3>Můj první projekt</h3>
-            <p>Popis mého projektu. Kliknutím zjistíte více.</p>
-            <button onclick="showAlert()">Zjistit více</button>
-        </div>
-    </section>
+  <footer>
+    <div class="footer-nav">
+      <a href="#top" class="nav-link">Home</a>
+      <a href="#portfolio" class="nav-link">Portfolio</a>
+      <a href="https://www.instagram.com/yoFarcik" target="_blank" class="instagram-link">
+        <img src="instagram-logo.png" alt="Instagram Logo" class="instagram-logo">
+      </a>
+    </div>
+    <p class="footer-text">FARCİK</p>
+  </footer>
 
-    <section id="contact">
-        <h2>Kontakt</h2>
-        <p>Můžete mě kontaktovat na Instagramu: <a href="https://instagram.com/yoFarcik" target="_blank">@yoFarcik</a></p>
-    </section>
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
